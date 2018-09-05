@@ -1,7 +1,9 @@
 package db
 
+import "time"
+
 type Model struct {
-	ID uint
+	ID        uint
 	CreatedAt time.Time
 	UpdatedAt time.Time
 }
